@@ -1,0 +1,33 @@
+.eachItem{
+    width: 300px;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.eachItem p{
+    padding: 10px;
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+}
+.eachItem p span{
+    position: absolute;
+    right: 10px;
+}
+.icon{
+    margin: 0 5px;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+.eachItem p input{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 17px;
+
+}
+.eachItem p input:focus{
+    outline: none;
+}
